@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: azure;
+  }
+
+  .tagline{
+    margin-bottom: 30px;
+    text-align: center;
+    color: rgb(255, 136, 0);
+    background-color: rgba(247, 132, 0, 0.13);
+  }
+  p{
+    margin-bottom: 30px;
+    text-align: center;
+    color: rgb(255, 212, 162);
+    background-color: rgba(247, 132, 0, 0.13);
+  }
+title{
+  color: azure;
+}
+  .logo{
+    width: 260px;
+
+  }
+
+  .inner h1{
+      width: 68%;
+      text-align: center;
+      font-size: 26px;
+      color: rgb(255, 238, 0);
+      top: 10%;
+      position: static;}
+      
+body {  
+    font-size: 100%; 
+    margin: static;  
+    max-width: 1500px;  
+    background-image: url("http://prospelare.com/wp-content/uploads/2021/11/1636985024_624_Disneyas-Encanto-ar-ett-musikaliskt-masterverk.jpg");
+  }
+ 
+  header {
+    text-align: center;
+  }
+ 
+  .startpage h1 {
+    font-size: 160%; /* Big title on the start page*/
+  }
+ 
+  .tagline {
+    font-size: 230%;
+    padding: 0.6em; /* distance to the border*/
+    border-top: 3px double #f16400;
+    border-bottom: 3px double #f16400;
+    margin: 2em 0; /* distance downwards but not upwards*/
+  }
+ 
+   .menu h2 {
+    margin: 0 0 1em;
+    padding: 3em 0;
+    background-color: #00ffd5;  /* very light gray*/
+    text-align: center;
+  }
+ 
+  footer {
+    margin-top: 3em;
+    text-align: center;
+    color: rgb(132, 119, 168);
+
+    background-image: url("https://lumiere-a.akamaihd.net/v1/images/encanto_ka_bpo_pay1_ee2c2e0c.jpeg?region=0,225,1080,1046&width=960");
+    background-color: #cccccc;
+  }
+  .startpage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+ 
+  .startpage header, .startpage footer {
+    flex: 0 0 100%;
+  }
+ 
+  .startpage section {
+    flex: 0 0 100%;
+  }
+  .menu a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+ 
+  .menu a:focus
+  .menu a:hover {
+    text-decoration: underline;
+    color: #f17500;
+  }
+  .menu h2 {
+    margin: 0 0 1em;
+    padding: 2em 0;
+    background-color: #ffc39b4b;
+    text-align: center;
+    box-shadow: inset 0 0 20px #f16400bd;
+    border-radius: 100%;
+  }
