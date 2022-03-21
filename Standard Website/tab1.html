@@ -1,0 +1,52 @@
+<!DOCTYPE html> <!-- 3. <!DOCTYPE html> gives the web browser on what type of website and coding language the web page uses.
+"lang" it's the documents language that it is written in
+    <meta> Describes metadata (data about data) and is always placed inside <head>. It is often used to specify a character set and the page description.
+        <title> is the document's title that is visible in your web browser's search bar or page tab
+            <link> element describes the bond between this document and an external "outside" resource or content. The <link> tag only contains attributes and in this example shows the bond with the navigation.css file ("href="navigation.css").
+        <p> paragraph tag is used to create blocks of text. Simple form of getting visible text up on your web page.
+              "class" is used to specify one or more class names for an HTML element. Is kind of like a grouping of the elements styling. They're often used to "style" unique elements or groups.-->
+<html lang="en">
+<head>
+    <title>Tab 1</title>
+    <meta charset="utf-8" />
+    <link href="navigation.css" rel="stylesheet" type="text/css" />
+</head>
+<body style="background-color:rgb(128, 128, 128);"> <!-- 2. This documents code is using the head, body and footer tag. 
+    <head> is the data about the web page data, for example you can change the entire websites title (using <title>) or link. 
+    <body> is shown on the website. It is simply like a section where all the properties and commands you type in the body will only apply for that body/part of your code.
+    <footer> Stands as a foot for its nearest section of contents. <footer> usually is used for showing the owners or creators information and copyright notices. It can be used to stick its contents to the bottom like a foot-->
+    <nav class="mainmenu"> <!-- 6. <nav> HTML element stands as a section of a web page which is meant to create navigation links, where you can navigate and go from one page to another using the often called "standard website" and vice versa. An example of what you use a navigation section for are menus. Menus are used in almost every website so <nav> is incredible useful.
+        <ul> "unordered list" HTML element is an unordered list of items, often called bullet lists.-->
+        <ul class="navbar"> 
+            <li><a href="tab1.html">Tab 1</a></li>
+            <li><a href="tab2.html">Tab 2</a></li>
+            <li><a href="tab3.html">Tab 3</a></li>
+            <li><a href="tab4.html">Tab 4</a></li>
+        </ul>
+    </nav>
+<header class="header">
+        <h1>My Work in Tab 1</h1>
+</header>
+<div class="wrapper"> <!-- 1. This code is using 1 "div" tag. Div is one of the most useful tags that can allow us to seperate data in a web page or to create different sections for different functions.--> 
+<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur 
+id erat elit blandit lobortis a a neque. Fusce lacus nisi, vulputate 
+quis vulputate, aliquam vitae libero. Sed congue ligula quis turpis 
+tincidunt ut ante feugiat. Sed semper tortor fermentum ligula fringilla 
+tristique. Mauris lacinia venenatis commodo. Curabitur scelerisque 
+pharetra facilisis. Donec et iaculis nunc. Curabitur rhoncus iaculis 
+diam, rutrum faucibus magna cursus in. Vestibulum eu consectetur magna. 
+</p>
+ <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur <!-- 4. Lorem ipsum is from the latin language but shows no significant meaning. It is a fill-in text that is used to show the font and style of a text in a document or visual demonstration of text on a web page like in this document.-->
+id erat elit blandit lobortis a a neque. Fusce lacus nisi, vulputate 
+quis vulputate, aliquam vitae libero. Sed congue ligula quis turpis 
+tincidunt ut ante feugiat. Sed semper tortor fermentum ligula fringilla 
+tristique. Mauris lacinia venenatis commodo. Curabitur scelerisque 
+pharetra facilisis. Donec et iaculis nunc. Curabitur rhoncus iaculis 
+diam, rutrum faucibus magna cursus in. Vestibulum eu consectetur magna. 
+</p>
+</div>
+ <footer class="footer">
+ <p>All rights reserved - &#169; Copyright</p> <!-- 5. &#169 is the © copyright sign written as normal english characters to make it possible to type characters that are not on the standard QWERTY keyboard. It is called an HTML symbol and is a sort of name for a certain character.-->
+ </footer>
+</body>
+</html>

@@ -1,0 +1,31 @@
+body{
+    margin:0;
+    padding:0;
+    color: white;
+    font-family: sans-serif;
+}
+.navbar {
+    list-style-type: none; /* changes the list styling to none */
+    margin: 0; /* control space outside border */
+    padding: 0; /* control space inside border */
+    background-color: rgb(80, 80, 80);
+    width: 100%;
+    overflow: hidden; /* what happens to overflow in an element */
+    border: 1px solid rgb(255, 169, 169);
+}
+.navbar li {
+    float: left; /* positioning the element to the left */
+    text-align: center;
+    border-right: 1px solid rgb(255, 0, 0);
+}
+.navbar li a {
+    display: block; /* specifies the display behaviour and shows the links as blocks */
+    color: rgb(255, 0, 0);
+    padding: 14px 16px;
+    text-decoration: none; /* makes the <a> element not underlined */
+    font-size: large;
+}
+.navbar li a:hover /* changes property of element <a> on hover */ {
+    color: white;
+    background-color: #111;
+}
